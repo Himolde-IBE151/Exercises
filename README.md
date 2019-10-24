@@ -15,3 +15,5 @@ def leds(p):
     led_list = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
     return led_list[p]
 ```
+
+python -m profile program.py
