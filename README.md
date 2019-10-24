@@ -7,32 +7,17 @@ python -m profile program.py
 
 ```python
 try:
-    file = open(filename)
-    new_filename = file.readline()
+    my_file = open(filename, "r")
 except FileNotFoundError:
     print('File not found, creating one')
-    file = open(filename, 'w')
+    my_file = open(filename, 'w')
+    print("A first line", file = my_file)
 else:
-    new_file = open(new_filename)
-    data = new_file.read()
+    line = my_file.readline()
+    print("first line", line)
 finally:
-    file.close()
+    my_file.close()
 ```
-
-try:
-
-    with open("test.csv", 'rb') as inputfile:
-
-        reader = csv.DictReader(inputfile)
-        user_input=int(raw_input("Enter the Idno to search:"))
-        rows = [row for row in reader if row['Idno']==str(int(user_input)
-
-        for row in rows:
-            print rows
-
-
-except ValueError:
-    print "Enter correct idno "
 
 ## Exercises on sequences
 Alarm Clock URI Online Judge | 1103
