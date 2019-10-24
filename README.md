@@ -28,3 +28,17 @@ print(search_elem([1, 10, 20, 30, 50, 100], 30))
 ```python
 python -m profile program.py
 ```
+
+```python
+try:
+    file = open(filename)
+    new_filename = file.readline()
+except FileNotFoundError:
+    print('File not found, creating one')
+    file = open(filename, 'w')
+else:
+    new_file = open(new_filename)
+    data = new_file.read()
+finally:
+    file.close()
+```
