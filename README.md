@@ -15,5 +15,16 @@ def leds(p):
     led_list = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
     return led_list[p]
 ```
+```python
+def search_elem(L, key):
+    for num in L:
+      if num == key:
+          return True
+    return False
 
+print(search_elem([1, 10, 20, 30, 50, 100], 30))
+```
+
+```python
 python -m profile program.py
+```
