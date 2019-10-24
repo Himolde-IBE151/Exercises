@@ -1,5 +1,4 @@
 # Exercises
-This is an unfinished solution for the URI 1168 problem. What do you think it needs to be finished?
 ```python
 N = int(input())
 for n in range(N):
@@ -57,4 +56,13 @@ try:
 
 except ValueError:
     print "Enter correct idno "
-    
+
+## Exercises on sequences
+Alarm Clock URI Online Judge | 1103
+
+## Exercises on sequences
+URI Online Judge | 1068
+
+This is an unfinished solution for the URI 1168 problem. What do you think it needs to be finished?
+
+Highest and Position URI Online Judge | 1080
