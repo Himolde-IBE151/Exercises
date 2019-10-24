@@ -42,3 +42,19 @@ else:
 finally:
     file.close()
 ```
+
+try:
+
+    with open("test.csv", 'rb') as inputfile:
+
+        reader = csv.DictReader(inputfile)
+        user_input=int(raw_input("Enter the Idno to search:"))
+        rows = [row for row in reader if row['Idno']==str(int(user_input)
+
+        for row in rows:
+            print rows
+
+
+except ValueError:
+    print "Enter correct idno "
+    
