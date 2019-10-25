@@ -11,7 +11,8 @@ try:
 except FileNotFoundError:
     print('File not found, creating one')
     my_file = open(filename, 'w')
-    print("A first line", file = my_file)
+    my_file.write("A first line\n")
+    #print("A first line", file = my_file)
 else:
     line = my_file.readline()
     print("first line", line)
