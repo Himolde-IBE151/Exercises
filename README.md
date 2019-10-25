@@ -2,10 +2,6 @@
 
 
 ```python
-python -m profile program.py
-```
-
-```python
 try:
     my_file = open(filename, "r")
 except FileNotFoundError:
