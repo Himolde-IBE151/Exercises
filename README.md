@@ -16,11 +16,9 @@ finally:
     my_file.close()
 ```
 
-## Exercises on sequences
-Alarm Clock URI Online Judge | 1103
 
 ## Exercises on sequences
-URI Online Judge | 1068
+URI Online Judge | 1168
 
 This is an unfinished solution for the URI 1168 problem. What do you think it needs to be finished?
 ```python
