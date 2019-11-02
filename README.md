@@ -47,7 +47,7 @@ N = int(input())
 for n in range(N):
     V = input()
     print(how_many(V))
-
+```
 How would you implement the function how_many(V), that receives a word and returns the amount of leds necessary to represent it in the panel?
 
-```
+
