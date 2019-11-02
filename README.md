@@ -29,10 +29,11 @@ Output
 For each test case, print one line containing the number of LEDs that John needs to set the desired value, followed by the word "leds".
 Input Sample 	Output Sample
 
-3
-115380          27 leds
-2819311         29 leds
-23456           25 leds
+|3 |  |  
+| :---: | :---: |
+|115380   |  27 leds|
+|2819311  |  29 leds|
+|23456    |  25 leds|
 
 Solution:
 ```python
