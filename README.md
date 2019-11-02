@@ -42,7 +42,7 @@ Solution:
 # The leds for each number may be defined as:
 # led_list = [6, 2, 5, 5, 4, 5, 6, 3, 7, 6]
 # where lef_list[0] is the amount of leds necessary to represent the number 0 in the panel.
-# As in many URI exercises, the solution consists in iterate through all the N test cases and execute a computation for each test case:
+# As in many URI exercises, the solution consists in iterating through all the N test cases and execute a computation for each test case:
 N = int(input())
 for n in range(N):
     V = input()
